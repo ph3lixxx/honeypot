@@ -5,8 +5,13 @@ Honeypot ini dibuat untuk menangkap aktivitas penyerang yang mencoba mengakses h
 
 ## Menjalankan
 ```bash
-pip install -r requirements.txt
-python run.py
+pip3 install -r requirements.txt
+python3 fake_ssh.py
+python3 fake_http.py
+
+## Analyze
+python3 ssh_analyzer.py
+python3 analyzer_http.py
 
 ## Clone the Website
 sudo apt install httrack
