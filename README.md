@@ -9,6 +9,5 @@ pip install -r requirements.txt
 python run.py
 
 ## Clone the Website
-'''bash
 sudo apt install httrack
 httrack "https://target.com" -O /home/felix/clone-target target.com -v  
