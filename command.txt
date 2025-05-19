@@ -1,0 +1,4 @@
+Redirect Pakai DNS (jika kamu kontrol domain-nya)
+1.web-asli.com A 192.168.1.20
+2. Redirect (local) : 
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 5000
